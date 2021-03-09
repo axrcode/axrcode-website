@@ -1,0 +1,135 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --azul-primary: #202833;
+  --azul-secondary: #2b3443;
+  --azul-third: #1b212a;
+  --azul-divider-primary: #3d46d6;
+  --animate-duration: 2000ms;
+}
+
+body {
+  padding-top: 70px;
+  background-color: var(--azul-primary);
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding-top: 120px;
+  }
+}
+
+.radius {
+  border-radius: 25px;
+}
+
+.azul-primary {
+  background-color: var(--azul-primary);
+}
+
+.azul-secondary {
+  background-color: var(--azul-secondary);
+}
+
+.azul-third {
+  background-color: var(--azul-third);
+}
+
+.divisor-primary::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--azul-divider-primary);
+  box-shadow: none;
+}
+
+/* ----------------------------------------------- */
+/*  NAVBAR                                         */
+/* ----------------------------------------------- */
+
+.activo {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 4px solid white;
+}
+
+.no-activo {
+  color: #b3b3b3;
+  font-weight: bold;
+}
+
+.no-activo:hover {
+  color: #3d46d6;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #3d46d6;
+}
+
+/* ----------------------------------------------- */
+/*  SECCIONES                                      */
+/* ----------------------------------------------- */
+
+.section-2 {
+  background-color: var(--azul-secondary);
+  background-image: url(../img/divider-1.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.section-tech {
+  background-color: var(--azul-primary);
+  background-image: url(../img/divider-2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/* ----------------------------------------------- */
+/*  INICIO                                         */
+/* ----------------------------------------------- */
+
+.titulo-encabezado {
+  font-size: 350%;
+}
+
+.tarjeta-tech {
+  padding: 0px 250px;
+}
+
+.perfil {
+  width: 15%;
+  border: 5px solid var(--azul-divider-primary);
+  padding: 5px;
+}
+
+.perfil-links {
+  color: white;
+  font-size: 200%;
+  transition: all 0.2s;
+}
+
+.perfil-links:hover {
+  color: var(--azul-divider-primary);
+  font-size: 200%;
+  transition: all 0.2s;
+}
+
+@media screen and (max-width: 430px) {
+  .titulo-encabezado {
+    font-size: 200%;
+  }
+
+  .tarjeta-tech {
+    padding: 0px 10px;
+  }
+
+  .perfil {
+    width: 50%;
+  }
+}
