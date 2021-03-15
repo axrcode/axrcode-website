@@ -35,6 +35,10 @@ body {
     background-color: var(--dark-secondary);
 }
 
+.dark-third {
+    background-color: var(--dark-third);
+}
+
 .navbar-movil {
     background-color: none;
 }
