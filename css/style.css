@@ -106,3 +106,16 @@ html {
         width: 80%;
     }
 }
+
+
+
+.links-footer {
+    color: var(--light-secondary);
+    font-size: 180%;
+    transition: all 0.2s;
+}
+  
+.links-footer:hover {
+    color: var(--dark-active);
+    transition: all 0.2s;
+}
