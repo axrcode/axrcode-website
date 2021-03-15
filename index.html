@@ -22,6 +22,35 @@
 </head>
 <body>
 
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml            : true,
+                version          : 'v10.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="106752274674760"
+        theme_color="#0B16C5"
+        logged_in_greeting="¡Hola Mundo!"
+        logged_out_greeting="¡Hola Mundo!">
+    </div>
+
     <div class="bg-circuito">
         <nav class="container d-flex flex-column flex-md-row align-items-center p-3 navbar-movil">
             <h1 class="my-0 mr-md-auto font-weight-normal">
@@ -31,12 +60,8 @@
             </h1>
 
             <div class="my-3">
-                <a  class="p-2 text-white text-decoration-none font-weight-bold" 
-                    href="/">
-                    <span class="activo">Inicio</span>
-                </a>
-                <a  class="p-2 text-white text-decoration-none font-weight-bold" 
-                    href="./portafolio.html">
+                <a  class="btn btn-outline-primary font-weight-bold px-5" 
+                    href="#portafolio">
                     <span class="no-activo">Portafolio</span>
                 </a>
             </div>
@@ -84,29 +109,28 @@
         </section>
     </div>
         
-    <section class="dark-secondary py-5">
-        <div class="container py-5">
+    <section class="dark-secondary pb-5" id="portafolio">
+        <div class="container">
             
             <div class="row">
-                <div class="col-12 text-center pt-5">
-                    <span class="h4 text-light">
+                <div class="col-12 py-5">
+                    <span class="h3 font-weight-bold pr-5">
                         Lenguajes y Tecnologías que he aprendido a utilizar
                     </span>
+                    <div class="div-primary mt-2"></div>
+                </div>
 
-                    <div class="row px-5 pt-5">
-                        <div class="col-12 col-md-4 px-0">
-                            <img src="./img/tech/tech1.png" alt="" class="w-100 mb-3">
-                        </div>
-                        <div class="col-12 col-md-4 px-0">
-                            <img src="./img/tech/tech2.png" alt="" class="w-100 mb-3">
-                        </div>
-                        <div class="col-12 col-md-4 px-0">
-                            <img src="./img/tech/tech3.png" alt="" class="w-100 mb-3">
-                        </div>
-                        <div class="col-12 col-md-4 px-0">
-                            <img src="./img/tech/tech4.png" alt="" class="w-100 mb-3">
-                        </div>
-                    </div>
+                <div class="col-12 col-md-4 px-0">
+                    <img src="./img/tech/tech1.png" alt="" class="w-100 mb-3">
+                </div>
+                <div class="col-12 col-md-4 px-0">
+                    <img src="./img/tech/tech2.png" alt="" class="w-100 mb-3">
+                </div>
+                <div class="col-12 col-md-4 px-0">
+                    <img src="./img/tech/tech3.png" alt="" class="w-100 mb-3">
+                </div>
+                <div class="col-12 col-md-4 px-0">
+                    <img src="./img/tech/tech4.png" alt="" class="w-100 mb-3">
                 </div>
             </div>
 

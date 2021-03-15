@@ -22,6 +22,9 @@ body {
     color: var(--light-primary);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* ----------------------------------------------- */
 /*  COLORES                                        */
@@ -82,5 +85,24 @@ body {
 
     .perfil {
       width: 50%;
+    }
+}
+
+/* ----------------------------------------------- */
+/*  TECNOLOGIAS                                    */
+/* ----------------------------------------------- */
+
+.div-primary::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 5px;
+    background: var(--dark-active);
+}
+
+@media screen and (max-width: 430px) {
+    
+    .div-primary::after {
+        width: 80%;
     }
 }
