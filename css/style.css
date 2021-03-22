@@ -9,7 +9,8 @@
     --dark-primary: #1C2230;
     --dark-secondary: #181E2A;
     --dark-third: #0C1524;
-    --dark-active: #0B16C5;
+    --active-primary: #0B16C5;
+    --active-secondary: #222880;
 
     --light-primary: #F4F4F4;
     --light-secondary: #90959B;
@@ -24,6 +25,17 @@ html {
 body {
     background-color: var(--dark-primary);
     color: var(--light-primary);
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+    background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--active-secondary);
+    border-radius: 25px;
 }
 
 /* ----------------------------------------------- */
@@ -50,8 +62,8 @@ body {
 }
 
 .loader span {
-    width: 50px;
-    height: 300px;
+    width: 40px;
+    height: 150px;
     margin: 0 20px;
     background: #242c3d;
     animation: animate 1.4s linear infinite;
@@ -106,8 +118,8 @@ body {
 @media screen and (max-width: 430px) {
 
     .loader span {
-        width: 50px;
-        height: 150px;
+        width: 30px;
+        height: 100px;
     }
 }
 
@@ -131,6 +143,10 @@ body {
     background-color: none;
 }
 
+.texto-active {
+    color: #1D93FF;
+}
+
 @media screen and (max-width: 430px) {
 
     .navbar-movil {
@@ -151,7 +167,7 @@ body {
 
 .perfil {
     width: 20%;
-    border: 4px solid var(--dark-active);
+    border: 4px solid var(--active-primary);
     padding: 6px;
 }
 
@@ -162,14 +178,14 @@ body {
 }
   
 .perfil-links:hover {
-    color: var(--dark-active);
+    color: var(--active-primary);
     transition: all 0.2s;
 }
 
 @media screen and (max-width: 430px) {
 
     .perfil {
-      width: 50%;
+      width: 60%;
     }
 }
 
@@ -182,13 +198,26 @@ body {
     display: block;
     width: 50%;
     height: 5px;
-    background: var(--dark-active);
+    background: var(--active-primary);
+}
+
+.div-secondary::after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 3.5px;
+    background: var(--active-secondary);
 }
 
 @media screen and (max-width: 430px) {
     
     .div-primary::after {
         width: 80%;
+    }
+
+    .div-secondary::after {
+        height: 4px;
+        width: 70%;
     }
 }
 
@@ -201,6 +230,6 @@ body {
 }
   
 .links-footer:hover {
-    color: var(--dark-active);
+    color: var(--active-primary);
     transition: all 0.2s;
 }
