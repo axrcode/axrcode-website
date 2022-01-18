@@ -1,6 +1,6 @@
 const RedSocial = ({ enlace, icono }) => {
     return (
-        <a  href={enlace} target="_blank"
+        <a  href={enlace} target="_blank" rel="noreferrer"
             class="text-decoration-none perfil-links">
             <span class="px-2">
                 <i class={icono}></i>

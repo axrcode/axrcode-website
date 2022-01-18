@@ -1,6 +1,6 @@
 import RedSocial from './RedSocial'
 
-const Profile = ({ foto }) => {
+const Header = ({ foto }) => {
     return (
         <div className="py-24">
 
@@ -34,4 +34,4 @@ const Profile = ({ foto }) => {
     )
 }
 
-export default Profile
+export default Header
