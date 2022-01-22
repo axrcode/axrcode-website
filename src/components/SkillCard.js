@@ -1,6 +1,6 @@
 const SkillCard = ({ image, space, name, learning }) => {
     return (
-        <div className="w-1/6 p-2">
+        <div className="md:w-1/6 p-2">
             <div className="p-5 border-double border-4 border-gray-800">
                 <div className={`h-20 w-20 flex items-center justify-center mx-auto ${ space && 'p-3' }`}>
                     <img src={ image } alt="Icon Tech"/>
