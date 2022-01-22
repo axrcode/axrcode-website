@@ -11,6 +11,7 @@ const Home = () => {
             <Header 
                 foto={foto}
             />
+
             <Tech />
             <Skills />
             <Footer />
