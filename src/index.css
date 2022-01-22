@@ -188,10 +188,10 @@ body::-webkit-scrollbar-thumb {
   transition: all 0.2s;
 }
 
-.perfil-links:hover {
+/* .perfil-links:hover {
   color: var(--active-primary);
   transition: all 0.2s;
-}
+} */
 
 @media screen and (max-width: 430px) {
 
@@ -232,7 +232,9 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-
+.bg-footer {
+  background-color: #050505 !important;
+}
 
 .links-footer {
   color: var(--light-secondary);
@@ -243,4 +245,17 @@ body::-webkit-scrollbar-thumb {
 .links-footer:hover {
   color: var(--active-primary);
   transition: all 0.2s;
+}
+
+
+
+
+.filt-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.filt-img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }

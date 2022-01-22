@@ -8,7 +8,7 @@ const Footer = () => {
     const year = today.getFullYear();
 
     return (
-        <div className="bg-gray-900 py-20 md:flex">
+        <div className="bg-footer py-20 md:flex">
 
             <div className="md:w-1/2">
                 <div className="flex justify-center">

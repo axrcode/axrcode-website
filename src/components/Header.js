@@ -21,7 +21,7 @@ const Header = ({ foto }) => {
 
             <h1 className="font-black text-3xl md:text-5xl text-center md:w-1/2 mx-auto my-8 text-gray-200">
                 Hola, mi nombre es {''}
-                <span className="text-indigo-600">Axel Castillo</span>
+                <span className="text-blue-600">Axel Castillo</span>
             </h1>
 
             <article class="text-gray-300 font-bold text-center px-8 md:px-80 text-lg">
