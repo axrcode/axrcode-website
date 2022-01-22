@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+//import { BrowserRouter } from 'react-router-dom';
 
 import './styles/tailwind.css'
 import './index.css';
@@ -7,9 +8,9 @@ import App from './App';
 import Loading from './components/Loading';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Loading />
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
