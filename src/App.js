@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/General/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import NotFound from './components/NotFound';
+import NotFound from './components/General/NotFound';
 
 import logo from './assets/img/icons/logo-axrcode.png'
 

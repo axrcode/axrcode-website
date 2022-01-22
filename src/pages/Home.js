@@ -1,9 +1,9 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import Tech from "../components/Tech"
+import Header from "../components/Home/Header"
+import Footer from "../components/General/Footer"
+import Tech from "../components/Home/Tech"
+import Skills from "../components/Home/Skills"
 
 import foto from '../assets/img/others/perfil-axrcode.png'
-import Skills from "../components/Skills"
 
 const Home = () => {
     return (

@@ -5,7 +5,7 @@ import { HashRouter } from 'react-router-dom';
 import './styles/tailwind.css'
 import './index.css';
 import App from './App';
-import Loading from './components/Loading';
+import Loading from './components/General/Loading';
 
 ReactDOM.render(
   <HashRouter>

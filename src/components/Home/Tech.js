@@ -1,8 +1,8 @@
 import TechCard from "./TechCard"
 
-import frontend from '../assets/img/icons/frontend.png'
-import backend from '../assets/img/icons/backend.png'
-import technologies from '../assets/img/icons/technologies.png'
+import frontend from '../../assets/img/icons/frontend.png'
+import backend from '../../assets/img/icons/backend.png'
+import technologies from '../../assets/img/icons/technologies.png'
 
 const Tech = () => {
     return (

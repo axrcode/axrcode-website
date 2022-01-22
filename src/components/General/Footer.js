@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/img/icons/logo-axrcode.png'
-import RedSocial from './RedSocial';
+import logo from '../../assets/img/icons/logo-axrcode.png'
+import RedSocial from '../Home/RedSocial';
 
 const Footer = () => {
     
