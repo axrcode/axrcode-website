@@ -1,8 +1,15 @@
+import { useEffect } from "react";
+
 import Footer from "../components/General/Footer"
 import Header from "../components/Home/Header"
 import ProjectList from "../components/Projects/ProjectList"
 
 const Projects = () => {
+    
+    useEffect( () => {
+        document.title = "Projects - AXRCODE"
+    }, []);
+
     return (
         <div className="bg-gradient-to-b from-gray-900 to-blue-900">
             <Header 
