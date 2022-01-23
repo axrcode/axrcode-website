@@ -29,12 +29,9 @@ const ProjectList = () => {
             <ProjectCard 
                 photo={creativosPhoto}
                 logo={creativosLogo}
-                text="Portafolio profesional para Creative Graphic Design, empresa dedida a marketing y publicidad digital."
+                text="Portafolio profesional para Creative Graphic Design, empresa dedicada a marketing y publicidad digital."
                 website="123creativos.com"
             />
-
-
-
 
         </div>
     )
