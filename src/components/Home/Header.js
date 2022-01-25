@@ -39,7 +39,7 @@ const Header = ({ foto, etiqueta, my, text }) => {
                 )
             }
 
-            <article class="text-gray-300 font-bold text-center px-8 md:px-80 text-lg">
+            <article class="text-gray-300 font-bold text-center px-8 md:px-80 text-md md:text-lg">
                 { text }
             </article>
         </div>

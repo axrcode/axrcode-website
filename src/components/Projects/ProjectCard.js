@@ -13,7 +13,7 @@ const ProjectCard = ({ photo, logo, text, website, invert }) => {
                         { text }
                     </p>
 
-                    <p className="font-black text-lg text-center mt-5">
+                    <p className="font-black text-md md:text-lg text-center mt-5">
                         <a  href={`http://${website}`} target="_blank" rel="noreferrer" 
                             className="text-blue-600 hover:text-blue-300">
                             www.{ website }
