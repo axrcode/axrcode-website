@@ -2,7 +2,8 @@ import { useEffect } from "react";
 
 import Footer from "../components/General/Footer"
 import Header from "../components/Home/Header"
-import ProjectList from "../components/Projects/ProjectList"
+import ProjectList from "../components/Projects/ProjectList";
+import WorkList from "../components/Projects/WorkList"
 
 const Projects = () => {
     
@@ -16,7 +17,7 @@ const Projects = () => {
                 etiqueta=" Proyectos "
                 text="Estos son algunos de los proyectos en los que he trabajado y adquirido experiencia."
             />
-            <ProjectList />
+            <WorkList />
             <Footer />
         </div>
     )
