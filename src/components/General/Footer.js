@@ -18,9 +18,9 @@ const Footer = () => {
                         </h3>
                         <a  href="mailto:axrcode@gmail.com"
                             className="bg-blue-900 py-2 px-5 md:px-20 text-white rounded-md uppercase font-bold hover:bg-blue-800 cursor-pointer transition-all mx-auto"> 
-                            <i class="fas fa-hand-point-right md:mr-2"></i>
+                            <i className="fas fa-hand-point-right md:mr-2"></i>
                             {''} Has click aquí {''} 
-                            <i class="fas fa-hand-point-left md:ml-2"></i>
+                            <i className="fas fa-hand-point-left md:ml-2"></i>
                         </a>
                     </div>
                 </div>

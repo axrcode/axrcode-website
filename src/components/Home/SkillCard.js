@@ -10,7 +10,7 @@ const SkillCard = ({ image, space, name, learning }) => {
                     {
                         learning && (
                             <span className="text-yellow-500 text-sm ml-2">
-                                <i class="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
                             </span>
                         )
                     }

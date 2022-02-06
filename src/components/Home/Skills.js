@@ -141,7 +141,7 @@ const Skills = () => {
 
             <h2 className="font-bold text-lg text-center mx-auto mt-3 text-yellow-500">
                 Etapa de Aprendizaje {''} 
-                <i class="fas fa-star"></i>
+                <i className="fas fa-star"></i>
             </h2>
             
             <h3 className="font-black text-xl text-left mx-auto mt-16 mb-5 text-gray-200 uppercase">

@@ -8,7 +8,7 @@ const Header = ({ foto, etiqueta, my, text }) => {
                 foto && (
                     <div>
                         <img src={foto} alt="Perfil" 
-                            class="perfil mx-auto rounded-full h-auto md:h-56 w-auto md:w-56 flex items-center justify-center"
+                            className="perfil mx-auto rounded-full h-auto md:h-56 w-auto md:w-56 flex items-center justify-center"
                         />
 
                         <div className="flex justify-center mt-3">
@@ -39,7 +39,7 @@ const Header = ({ foto, etiqueta, my, text }) => {
                 )
             }
 
-            <article class="text-gray-300 font-bold text-center px-8 md:px-80 text-md md:text-lg">
+            <article className="text-gray-300 font-bold text-center px-8 md:px-80 text-md md:text-lg">
                 { text }
             </article>
         </div>
