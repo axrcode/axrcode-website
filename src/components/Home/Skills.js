@@ -4,6 +4,7 @@ const Skills = () => {
 
     const skills = [
         {
+            id: 1,
             image: 'https://cdn.svgporn.com/logos/php.svg',
             space: false,
             name: 'PHP',
@@ -11,6 +12,7 @@ const Skills = () => {
             type: 1
         },
         {
+            id: 2,
             image: 'https://cdn.svgporn.com/logos/javascript.svg',
             space: true,
             name: 'JavaScript',
@@ -18,6 +20,7 @@ const Skills = () => {
             type: 1
         },
         {
+            id: 3,
             image: 'https://cdn.svgporn.com/logos/html-5.svg',
             space: true,
             name: 'HTML',
@@ -25,6 +28,7 @@ const Skills = () => {
             type: 2
         },
         {
+            id: 4,
             image: 'https://cdn.svgporn.com/logos/css-3.svg',
             space: true,
             name: 'CSS',
@@ -32,6 +36,7 @@ const Skills = () => {
             type: 2
         },
         {
+            id: 5,
             image: 'https://cdn.svgporn.com/logos/bootstrap.svg',
             space: true,
             name: 'Booststrap',
@@ -39,6 +44,7 @@ const Skills = () => {
             type: 2
         },
         {
+            id: 6,
             image: 'https://cdn.svgporn.com/logos/tailwindcss-icon.svg',
             space: true,
             name: 'TailwindCSS',
@@ -46,6 +52,7 @@ const Skills = () => {
             type: 2
         },
         {
+            id: 7,
             image: 'https://cdn.svgporn.com/logos/react.svg',
             space: true,
             name: 'React',
@@ -53,6 +60,7 @@ const Skills = () => {
             type: 2
         },
         {
+            id: 8,
             image: 'https://cdn.svgporn.com/logos/vue.svg',
             space: true,
             name: 'Vue',
@@ -60,6 +68,7 @@ const Skills = () => {
             type: 2
         },
         {
+            id: 9,
             image: 'https://cdn.svgporn.com/logos/laravel.svg',
             space: true,
             name: 'Laravel',
@@ -67,6 +76,7 @@ const Skills = () => {
             type: 3
         },
         {
+            id: 10,
             image: 'https://cdn.svgporn.com/logos/nodejs-icon.svg',
             space: true,
             name: 'Node.js',
@@ -74,6 +84,7 @@ const Skills = () => {
             type: 3
         },
         {
+            id: 11,
             image: 'https://jsurt.github.io/jacks-portfolio/images/color-express-icon%20(1).png',
             space: false,
             name: 'Express.js',
@@ -81,6 +92,7 @@ const Skills = () => {
             type: 3
         },
         {
+            id: 12,
             image: 'https://cdn.svgporn.com/logos/mysql-icon.svg',
             space: true,
             name: 'MySQL',
@@ -88,6 +100,7 @@ const Skills = () => {
             type: 3
         },
         {
+            id: 13,
             image: 'https://cdn.svgporn.com/logos/bash-icon.svg',
             space: true,
             name: 'Terminal',
@@ -95,6 +108,7 @@ const Skills = () => {
             type: 4
         },
         {
+            id: 14,
             image: 'https://cdn.svgporn.com/logos/git-icon.svg',
             space: true,
             name: 'Git',
@@ -102,6 +116,7 @@ const Skills = () => {
             type: 4
         },
         {
+            id: 15,
             image: 'https://cdn.svgporn.com/logos/linux-tux.svg',
             space: true,
             name: 'Linux',
@@ -109,6 +124,7 @@ const Skills = () => {
             type: 4
         },
         {
+            id: 16,
             image: 'https://icons-for-free.com/iconfiles/png/512/mongodb+plain-1324760553187258418.png',
             space: true,
             name: 'MongoDB',
@@ -116,6 +132,7 @@ const Skills = () => {
             type: 4
         },
         {
+            id: 17,
             image: 'https://cdn.svgporn.com/logos/postman-icon.svg',
             space: true,
             name: 'MySQL',
@@ -123,6 +140,7 @@ const Skills = () => {
             type: 4
         },
         {
+            id: 18,
             image: 'https://cdn.svgporn.com/logos/figma.svg',
             space: true,
             name: 'Figma',
@@ -153,6 +171,7 @@ const Skills = () => {
                 {
                     skills.filter(skill => skill.type === 1).map( skill => (
                         <SkillCard 
+                            key={skill.id}
                             image={skill.image}
                             space={skill.space}
                             name={skill.name}
@@ -171,6 +190,7 @@ const Skills = () => {
                 {
                     skills.filter(skill => skill.type === 2).map( skill => (
                         <SkillCard 
+                            key={skill.id}
                             image={skill.image}
                             space={skill.space}
                             name={skill.name}
@@ -189,6 +209,7 @@ const Skills = () => {
                 {
                     skills.filter(skill => skill.type === 3).map( skill => (
                         <SkillCard 
+                            key={skill.id}
                             image={skill.image}
                             space={skill.space}
                             name={skill.name}
@@ -209,6 +230,7 @@ const Skills = () => {
                 {
                     skills.filter(skill => skill.type === 4).map( skill => (
                         <SkillCard 
+                            key={skill.id}
                             image={skill.image}
                             space={skill.space}
                             name={skill.name}
