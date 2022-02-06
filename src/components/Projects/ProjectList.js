@@ -55,8 +55,8 @@ const ProjectList = () => {
         <div className="bg-gray-900 pb-48 md:px-36 px-10">
             
             <h2 className="font-black text-3xl md:text-4xl text-center mx-auto mb-10 text-gray-200">
-                Otros {''}
-                <span className="text-blue-600">Proyectos</span>
+                Proyectos {''}
+                <span className="text-blue-600">Personales</span>
             </h2>
 
             <div className="grid grid-cols-2 gap-4">
