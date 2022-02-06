@@ -18,6 +18,7 @@ const Projects = () => {
                 text="Estos son algunos de los proyectos en los que he trabajado y adquirido experiencia."
             />
             <WorkList />
+            <ProjectList />
             <Footer />
         </div>
     )

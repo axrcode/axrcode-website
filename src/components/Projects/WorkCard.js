@@ -5,7 +5,7 @@ const ProjectCard = ({ id, photo, logo, text, website, invert, techs }) => {
                 <img src={photo} alt="Img Description" />
             </div>
             <div className="md:w-1/2 md:p-2 flex items-center justify-center mx-auto">
-                <div className="bg-gray-900 bg-opacity-60 py-10 px-4 rounded-l shadow-lg border-double border-4 border-gray-800">
+                <div className="bg-gray-900 bg-opacity-60 py-10 px-4 rounded-l shadow-lg border-double border-4 border-gray-800 hover:bg-gray-800 transition-all">
 
                     <img src={logo} alt="Logo" className="w-4/6 md:w-2/6 mx-auto pb-7"  />
 
