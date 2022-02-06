@@ -11,13 +11,13 @@ const ProjectList = () => {
             techs: [
                 {
                     name: 'React',
-                    bg: 'sky-500', 
-                    font: '900'
+                    bg: 'bg-sky-500', 
+                    font: 'text-gray-900'
                 },
                 {
                     name: 'TailwindCSS',
-                    bg: 'teal-500', 
-                    font: '100'
+                    bg: 'bg-teal-500', 
+                    font: 'text-gray-100'
                 }
             ]
         },
@@ -29,23 +29,23 @@ const ProjectList = () => {
             techs: [
                 {
                     name: 'Laravel',
-                    bg: 'red-500',
-                    font: '100'
+                    bg: 'bg-red-500',
+                    font: 'text-gray-100'
                 },
                 {
                     name: 'Livewire',
-                    bg: 'rose-400',
-                    font: '100'
+                    bg: 'bg-rose-400',
+                    font: 'text-gray-100'
                 },
                 {
                     name: 'MySQL',
-                    bg: 'yellow-400',
-                    font: '800'
+                    bg: 'bg-yellow-400',
+                    font: 'text-gray-800'
                 },
                 {
                     name: 'Bootstrap',
-                    bg: 'purple-800',
-                    font: '100'
+                    bg: 'bg-purple-800',
+                    font: 'text-gray-100'
                 }
             ]
         }

@@ -13,7 +13,7 @@ const ProjectCard = ({ name, text, techs, demo, repositorio }) => {
             <p className="flex flex-wrap justify-center font-black text-md md:text-lg text-center">
                 {
                     techs.map(tech => (
-                        <span className={`text-xs text-gray-${tech.font} bg-${tech.bg} rounded-md px-4 py-1 mx-1 mt-3 shadow-md`}>
+                        <span className={`text-xs ${tech.font} ${tech.bg} rounded-md px-4 py-1 mx-1 mt-3 shadow-md`}>
                             { tech.name }
                         </span>
                     ))

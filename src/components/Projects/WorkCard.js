@@ -23,7 +23,7 @@ const ProjectCard = ({ id, photo, logo, text, website, invert, techs }) => {
                     <p className="font-black text-md md:text-lg text-center mt-5">
                         {
                             techs.map(tech => (
-                                <span className={`text-xs text-gray-${tech.font} bg-${tech.bg} rounded-md px-5 py-1 mx-1 shadow-md`}>
+                                <span className={`text-xs ${tech.font} ${tech.bg} rounded-md px-5 py-1 mx-1 shadow-md`}>
                                     { tech.name }
                                 </span>
                             ))

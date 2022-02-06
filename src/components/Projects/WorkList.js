@@ -20,18 +20,18 @@ const WorkList = () => {
             techs: [
                 {
                     name: 'Laravel',
-                    bg: 'red-500',
-                    font: '100'
+                    bg: 'bg-red-500',
+                    font: 'text-gray-100'
                 },
                 {
                     name: 'MySQL',
-                    bg: 'yellow-400',
-                    font: '800'
+                    bg: 'bg-yellow-400',
+                    font: 'text-gray-800'
                 },
                 {
                     name: 'Bootstrap',
-                    bg: 'purple-800',
-                    font: '100'
+                    bg: 'bg-purple-800',
+                    font: 'text-gray-100'
                 }
             ]
         },
@@ -44,18 +44,18 @@ const WorkList = () => {
             techs: [
                 {
                     name: 'Laravel',
-                    bg: 'red-500',
-                    font: '100'
+                    bg: 'bg-red-500',
+                    font: 'text-gray-100'
                 },
                 {
                     name: 'MySQL',
-                    bg: 'yellow-400',
-                    font: '800'
+                    bg: 'bg-yellow-400',
+                    font: 'text-gray-800'
                 },
                 {
                     name: 'Bootstrap',
-                    bg: 'purple-800',
-                    font: '100'
+                    bg: 'bg-purple-800',
+                    font: 'text-gray-100'
                 }
             ]
         },
@@ -68,18 +68,18 @@ const WorkList = () => {
             techs: [
                 {
                     name: 'Laravel',
-                    bg: 'red-500',
-                    font: '100'
+                    bg: 'bg-red-500',
+                    font: 'text-gray-100'
                 },
                 {
                     name: 'MySQL',
-                    bg: 'yellow-400',
-                    font: '800'
+                    bg: 'bg-yellow-400',
+                    font: 'text-gray-800'
                 },
                 {
                     name: 'Bootstrap',
-                    bg: 'purple-800',
-                    font: '100'
+                    bg: 'bg-purple-800',
+                    font: 'text-gray-100'
                 }
             ]
         }
