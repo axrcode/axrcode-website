@@ -149,7 +149,7 @@ const Skills = () => {
                 <span className="text-blue-600">Programación</span>
             </h3>
 
-            <div className="md:flex">
+            <div className="flex flex-wrap">
                 {
                     skills.filter(skill => skill.type === 1).map( skill => (
                         <SkillCard 
@@ -167,7 +167,7 @@ const Skills = () => {
                 <span className="text-blue-600">Frontend</span>
             </h3>
 
-            <div className="md:flex">
+            <div className="flex flex-wrap">
                 {
                     skills.filter(skill => skill.type === 2).map( skill => (
                         <SkillCard 
@@ -185,7 +185,7 @@ const Skills = () => {
                 <span className="text-blue-600">Backend</span>
             </h3>
 
-            <div className="md:flex">
+            <div className="flex flex-wrap">
                 {
                     skills.filter(skill => skill.type === 3).map( skill => (
                         <SkillCard 
@@ -205,7 +205,7 @@ const Skills = () => {
                 <span className="text-blue-600">Tecnologías</span>
             </h3>
 
-            <div className="md:flex">
+            <div className="flex flex-wrap">
                 {
                     skills.filter(skill => skill.type === 4).map( skill => (
                         <SkillCard 
