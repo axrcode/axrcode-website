@@ -7,6 +7,29 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
 
+    const contacts = [
+        {
+            icon: 'fab fa-github',
+            user: 'axrcode',
+            red: 'github.com'
+        },
+        {
+            icon: 'fab fa-linkedin',
+            user: 'axrcode',
+            red: 'linkedin.com/in'
+        },
+        {
+            icon: 'fab fa-instagram',
+            user: 'axrcode',
+            red: 'instagram.com'
+        },
+        {
+            icon: 'fab fa-facebook',
+            user: 'axrcode',
+            red: 'facebook.com'
+        },
+    ]
+
     return (
         <div className="bg-footer">
             <div className="md:flex px-10 md:px-48 py-20">
@@ -30,30 +53,16 @@ const Footer = () => {
                         Mis Redes Sociales
                     </h3>
 
-                    <div className="md:flex">
-                        <FooterSocial 
-                            icon="fab fa-github"
-                            user="axrcode"
-                            red="github.com"
-                        />
-                        <FooterSocial 
-                            icon="fab fa-linkedin"
-                            user="axrcode"
-                            red="linkedin.com/in"
-                        />
-                    </div>
-
-                    <div className="md:flex">
-                        <FooterSocial 
-                            icon="fab fa-instagram"
-                            user="axrcode"
-                            red="instagram.com"
-                        />
-                        <FooterSocial 
-                            icon="fab fa-facebook"
-                            user="axrcode"
-                            red="facebook.com"
-                        />
+                    <div className="flex flex-wrap">
+                        {
+                            contacts.map(contact => (
+                                <FooterSocial 
+                                    icon={contact.icon}
+                                    user={contact.user}
+                                    red={contact.red}
+                                />
+                            ))
+                        }
                     </div>
                 </div>
 

@@ -1,6 +1,6 @@
 const FooterSocial = ({ icon, red, user }) => {
     return (
-        <div className="md:w-1/2 px-3 pb-3">
+        <div className="w-full md:w-1/2 px-3 pb-3">
             <a  href={`https://${ red }/${ user }`} target="_blank" rel="noreferrer">
                 <div className="bg-gray-900 hover:bg-gray-800 rounded-md py-2">
                     <div className="flex items-center justify-center">
