@@ -1,4 +1,4 @@
-const ProjectCard = ({ id, photo, logo, text, website, invert, techs }) => {
+const WorkCard = ({ id, photo, logo, text, website, invert, techs }) => {
     return (
         <div className="md:flex mb-20 md:mb-10">
             <div className={`md:w-1/2 md:p-2 mb-10 ${ id%2 === 0 && 'order-last' }`}>
@@ -23,7 +23,8 @@ const ProjectCard = ({ id, photo, logo, text, website, invert, techs }) => {
                     <p className="font-black text-md md:text-lg text-center mt-5">
                         {
                             techs.map(tech => (
-                                <span className={`text-xs ${tech.font} ${tech.bg} rounded-md px-5 py-1 mx-1 shadow-md`}>
+                                <span key={tech.id}
+                                    className={`text-xs ${tech.font} ${tech.bg} rounded-md px-5 py-1 mx-1 shadow-md`}>
                                     { tech.name }
                                 </span>
                             ))
@@ -35,4 +36,4 @@ const ProjectCard = ({ id, photo, logo, text, website, invert, techs }) => {
     )
 }
 
-export default ProjectCard
+export default WorkCard

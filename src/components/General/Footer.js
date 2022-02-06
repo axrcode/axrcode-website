@@ -9,21 +9,25 @@ const Footer = () => {
 
     const contacts = [
         {
+            id: 1,
             icon: 'fab fa-github',
             user: 'axrcode',
             red: 'github.com'
         },
         {
+            id: 2,
             icon: 'fab fa-linkedin',
             user: 'axrcode',
             red: 'linkedin.com/in'
         },
         {
+            id: 3,
             icon: 'fab fa-instagram',
             user: 'axrcode',
             red: 'instagram.com'
         },
         {
+            id: 4,
             icon: 'fab fa-facebook',
             user: 'axrcode',
             red: 'facebook.com'
@@ -57,6 +61,7 @@ const Footer = () => {
                         {
                             contacts.map(contact => (
                                 <FooterSocial 
+                                    key={contact.id}
                                     icon={contact.icon}
                                     user={contact.user}
                                     red={contact.red}

@@ -4,17 +4,20 @@ const ProjectList = () => {
 
     const projects = [
         {
+            id: 1,
             name: 'Task App',
             text: 'Aplicación web para crear tareas rápidas. Permitiendo crear nuevas tareas, marcar como completadas, buscar tareas por su nombre y eliminarlas.',
             demo: 'task-app-axrcode.vercel.app',
             repositorio: 'github.com/axrcode/task-app',
             techs: [
                 {
+                    id: 11,
                     name: 'React',
                     bg: 'bg-sky-500', 
                     font: 'text-gray-900'
                 },
                 {
+                    id: 12,
                     name: 'TailwindCSS',
                     bg: 'bg-teal-500', 
                     font: 'text-gray-100'
@@ -22,27 +25,32 @@ const ProjectList = () => {
             ]
         },
         {
+            id: 2,
             name: 'State Manager System',
             text: 'Sistema web para visualización de las etapas de producción. Utiliza las operaciones básicas CRUD para la gestion de empleados, clientes, pedidos y reportes.',
             demo: 'state-manager-system.herokuapp.com',
             repositorio: 'github.com/axrcode/state-manager-system',
             techs: [
                 {
+                    id: 21,
                     name: 'Laravel',
                     bg: 'bg-red-500',
                     font: 'text-gray-100'
                 },
                 {
+                    id: 22,
                     name: 'Livewire',
                     bg: 'bg-rose-400',
                     font: 'text-gray-100'
                 },
                 {
+                    id: 23,
                     name: 'MySQL',
                     bg: 'bg-yellow-400',
                     font: 'text-gray-800'
                 },
                 {
+                    id: 24,
                     name: 'Bootstrap',
                     bg: 'bg-purple-800',
                     font: 'text-gray-100'
@@ -63,6 +71,7 @@ const ProjectList = () => {
                 {
                     projects.map(project => (
                         <ProjectCard 
+                            key={project.id}
                             name={project.name}
                             text={project.text}
                             demo={project.demo}

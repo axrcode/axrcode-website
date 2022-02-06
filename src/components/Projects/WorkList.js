@@ -19,16 +19,19 @@ const WorkList = () => {
             website: "cbp.edu.gt",
             techs: [
                 {
+                    id: 11,
                     name: 'Laravel',
                     bg: 'bg-red-500',
                     font: 'text-gray-100'
                 },
                 {
+                    id: 12,
                     name: 'MySQL',
                     bg: 'bg-yellow-400',
                     font: 'text-gray-800'
                 },
                 {
+                    id: 13,
                     name: 'Bootstrap',
                     bg: 'bg-purple-800',
                     font: 'text-gray-100'
@@ -43,16 +46,19 @@ const WorkList = () => {
             website: "goedutecnologia.com",
             techs: [
                 {
+                    id: 21,
                     name: 'Laravel',
                     bg: 'bg-red-500',
                     font: 'text-gray-100'
                 },
                 {
+                    id: 22,
                     name: 'MySQL',
                     bg: 'bg-yellow-400',
                     font: 'text-gray-800'
                 },
                 {
+                    id: 23,
                     name: 'Bootstrap',
                     bg: 'bg-purple-800',
                     font: 'text-gray-100'
@@ -67,16 +73,19 @@ const WorkList = () => {
             website: "123creativos.com",
             techs: [
                 {
+                    id: 31,
                     name: 'Laravel',
                     bg: 'bg-red-500',
                     font: 'text-gray-100'
                 },
                 {
+                    id: 32,
                     name: 'MySQL',
                     bg: 'bg-yellow-400',
                     font: 'text-gray-800'
                 },
                 {
+                    id: 33,
                     name: 'Bootstrap',
                     bg: 'bg-purple-800',
                     font: 'text-gray-100'
@@ -96,6 +105,7 @@ const WorkList = () => {
             {
                 works.map(work => (
                     <WorkCard 
+                        key={work.id}
                         id={work.id}
                         photo={work.photo}
                         logo={work.logo}
