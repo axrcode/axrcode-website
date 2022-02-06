@@ -1,4 +1,4 @@
-const ProjectCard = ({ photo, logo, text, website, invert }) => {
+const ProjectCard = ({ photo, logo, text, website, invert, techs }) => {
     return (
         <div className="md:flex mb-20 md:mb-10">
             <div className={`md:w-1/2 md:p-2 mb-10 ${ invert && 'order-last' }`}>
@@ -18,6 +18,16 @@ const ProjectCard = ({ photo, logo, text, website, invert }) => {
                             className="text-blue-600 hover:text-blue-300">
                             www.{ website }
                         </a>
+                    </p>
+
+                    <p className="font-black text-md md:text-lg text-center mt-5">
+                        {
+                            techs.map(tech => (
+                                <span className={`text-xs text-gray-${tech.font} bg-${tech.bg} rounded-md px-5 py-1 mx-1 shadow-md`}>
+                                    { tech.name }
+                                </span>
+                            ))
+                        }
                     </p>
                 </div>
             </div>

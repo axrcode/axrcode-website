@@ -19,6 +19,7 @@ module.exports = {
       green: colors.green,
       sky: colors.sky,
       rose: colors.rose,
+      purple: colors.violet,
     }
   },
   variants: {
