@@ -56,7 +56,28 @@ const ProjectList = () => {
                     font: 'text-gray-100'
                 }
             ]
-        }
+        },
+        {
+            id: 1,
+            name: 'Pet Dating App',
+            text: 'Aplicación web de citas para pacientes mascotas. Permite crear nuevas citas, editar y eliminar las citas ya programadas.',
+            demo: 'pet-dating-app-axrcode.vercel.app',
+            repositorio: 'github.com/axrcode/pet-dating-app',
+            techs: [
+                {
+                    id: 11,
+                    name: 'React',
+                    bg: 'bg-sky-500', 
+                    font: 'text-gray-900'
+                },
+                {
+                    id: 12,
+                    name: 'TailwindCSS',
+                    bg: 'bg-teal-500', 
+                    font: 'text-gray-100'
+                }
+            ]
+        },
     ]
 
     return (
