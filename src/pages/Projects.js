@@ -12,7 +12,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className="bg-gradient-to-b from-gray-900 to-blue-900">
+        <div className="bg-gray-900 container">
             <Header 
                 etiqueta=" Proyectos "
                 text="Estos son algunos de los proyectos en los que he trabajado y adquirido experiencia."

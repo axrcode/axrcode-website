@@ -8,7 +8,7 @@ const Header = ({ foto, etiqueta, my, text }) => {
                 foto && (
                     <div>
                         <img src={foto} alt="Perfil" 
-                            className="perfil mx-auto rounded-full h-auto md:h-56 w-auto md:w-56 flex items-center justify-center"
+                            className="perfil mx-auto rounded-full h-auto md:h-52 w-auto md:w-52 flex items-center justify-center"
                         />
 
                         <div className="flex justify-center mt-3">
@@ -25,21 +25,21 @@ const Header = ({ foto, etiqueta, my, text }) => {
                 )
             }
 
-            <h1 className="font-black text-3xl md:text-5xl text-center md:w-1/2 mx-auto mt-8 mb-5 text-gray-200"
+            <h1 className="font-medium text-3xl md:text-5xl text-center md:w-1/2 mx-auto mt-8 mb-5 text-gray-100"
                 id="title-primary">
                 {'<'}{ etiqueta }{'/>'}
             </h1>
 
             {
                 my && (
-                    <h1 className="font-black text-3xl md:text-5xl text-center md:w-1/2 mx-auto mb-8 text-gray-200">
-                        Mi nombre es {''}
-                        <span className="text-blue-600">Axel Castillo</span>
+                    <h1 className="text-3xl md:text-5xl text-center md:w-1/2 mx-auto mb-8 text-gray-400">
+                        My name is {''}
+                        <span className="font-bold text-gray-200">Axel Castillo</span>
                     </h1>
                 )
             }
 
-            <article className="text-gray-300 font-bold text-center px-8 md:px-80 text-md md:text-lg">
+            <article className="text-gray-300 font-normal text-center px-8 md:px-80 text-md md:text-lg">
                 { text }
             </article>
         </div>

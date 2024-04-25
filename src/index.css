@@ -4,18 +4,19 @@
 @tailwind utilities;
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 :root {
-  --dark-primary: #111827;
-  --dark-secondary: #181E2A;
-  --dark-third: #0C1524;
-  --active-primary: #0B16C5;
-  --active-secondary: #222880;
+  --dark-primary: #020202;
+  --dark-secondary: #090909;
+  --dark-third: #262626;
+
+  --active-primary: #262626;
+  --active-secondary: #535353;
 
   --light-primary: #F4F4F4;
   --light-secondary: #90959B;
@@ -73,7 +74,7 @@ body::-webkit-scrollbar-thumb {
   width: 40px;
   height: 150px;
   margin: 0 20px;
-  background: #242c3d;
+  background: #090909;
   animation: animate 1.4s linear infinite;
 }
 

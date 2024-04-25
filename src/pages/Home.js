@@ -14,15 +14,12 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="bg-gradient-to-b from-gray-900 to-blue-900">
+        <div className="bg-gray-900 container">
             <Header 
                 foto={foto}
-                etiqueta="Hola Mundo"
+                etiqueta="Hello World"
                 my={true}
-                text="Soy originario de Quetzaltenango, Guatemala, y comencé mi camino como programador en el año 2016. 
-                Me desempeño dentro del entorno del desarrollo web, tanto como Frontend y Backend Developer. 
-                Soy estudiante de Ingeniería en Sistemas de la Universidad Mariano Gálvez de Guatemala y de la Escuela de 
-                Desarrollo Web de Platzi, siendo un fanático de aprender e interactuar con nuevas tecnologías."
+                text="I am from Quetzaltenango, Guatemala. I have been a programmer since 2020, mainly focusing on Web Development with technologies for both Frontend and Backend. I am a student of Systems Engineering at Mariano Gálvez University in Guatemala"
             />
 
             <Tech />

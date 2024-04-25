@@ -9,7 +9,7 @@ import logo from './assets/img/icons/logo-axrcode.png'
 
 function App() {
   return (
-    <div className=" bg-gray-900">
+    <div className=" bg-black">
       
       <Navbar logo={logo} />
 
